@@ -202,7 +202,7 @@ a{
 	/*mobile version*/
 
 @media only screen 
-and (max-device-width: 568px){
+and (max-width: 568px){
 	
 	.smenu li, .smenu a{
 		font-size: -1.5em;
@@ -274,10 +274,10 @@ and (max-device-width: 568px){
 
 /*iphone x and google pixel2 xl*/
 	@media only screen 
-and (min-device-height: 812px)
-and (max-device-height: 823px)
-and (min-device-width: 370px)
-and (max-device-width: 420px)
+and (min-height: 812px)
+and (max-height: 823px)
+and (min-width: 370px)
+and (max-width: 420px)
 {
 
 	.smenu li, .smenu a{
@@ -354,8 +354,8 @@ and (width: 375px)
 
 
 	@media only screen 
-and (device-height: 1024px)
-and (device-width: 768px)
+and (height: 1024px)
+and (width: 768px)
 {
 
 	.page1{
